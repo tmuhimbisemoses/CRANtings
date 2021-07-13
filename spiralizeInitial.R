@@ -1,0 +1,5 @@
+library(spiralize)
+spiral_initialize()
+s = current_spiral()
+s$curve(2*pi*2)
+s$spiral_length(2*pi*2)
